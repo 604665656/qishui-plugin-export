@@ -1,0 +1,24 @@
+{
+  "id": "export",
+  "name": "导出音频",
+  "version": "1.0.0",
+  "api_version": 2,
+  "summary": "把汽水作品一键导出为本地音频文件（带 Cookie 直连，无需代理）。",
+  "author": "604665656",
+  "license": "MIT",
+  "homepage": "https://github.com/604665656/qishui-plugin-export",
+  "entry": "export.plugin:ExportPlugin",
+  "tab": {
+    "group": "工具",
+    "title": "导出音频",
+    "order": 90
+  },
+  "needs": [
+    "store",
+    "auth"
+  ],
+  "standalone": "export/__main__.py",
+  "update": {
+    "feed": ""
+  }
+}

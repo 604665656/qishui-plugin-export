@@ -1,0 +1,15 @@
+{
+  "_说明": "把这个文件放到能被 raw.githubusercontent.com 访问的位置，再把地址填进 plugin.json 的 update.feed。",
+  "id": "export",
+  "channel": "stable",
+  "latest": "1.0.0",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-04",
+      "notes": "把汽水作品一键导出为本地音频文件（带 Cookie 直连，无需代理）。：首个开源版本。",
+      "url": "",
+      "sha256": ""
+    }
+  ]
+}
